@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 100px;
+
+    background-color: rgb(220, 221, 221);
+
+    display: flex;
+
+}
+nav .container{
+    width: 100%;
+    padding: 0px 34px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .container .logo{
+    width: 80px;
+    height: 80px;
+
+    text-align: center;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(121, 7, 22);
+
+    background-image: url(../img/cherry-blossom.png);
+    background-position: center;
+    background-size: cover;
+}
+nav .link{
+    margin: 10px;
+
+    font-size: 20px;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+nav .link:visited{
+    background-color: aquamarine;
+}
+nav .link:hover{
+    color: brown;
+}
+nav .link:active{
+    background-color: blue;
+}
+main{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main .container{
+    width: 700px;
+    height: 100vh;
+    padding-top: 50px;
+}
+main .container div{
+    width: 345px;
+    height:  390px;
+
+    background-color: rgb(181, 181, 182);
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    line-height: 390px;
+    font-size: 78px;
+    
+}
+main .container div:hover{
+    color: rgb(207, 36, 36);
+    filter: grayscale(20%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+main .container .x{
+    
+    width: 700px;
+    height: 400px;
+    margin-bottom: 7px;
+
+    line-height: 400px;
+
+    background-image: url(../img/X.jpg);
+}
+main .container .y{
+    float: left;
+
+    background-image: url(../img/Y.jpg);
+    background-color: rgb(201, 202, 202);
+}
+main .container .z{
+    float: right;
+    background-image: url(../img/Z.jpg);
+}

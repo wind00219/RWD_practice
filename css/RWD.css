@@ -1,0 +1,456 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 366px;
+    height: 100vh;
+    padding-top: 75px;
+    float: left;
+
+    background-color: rgb(220, 221, 221);
+}
+nav .container{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav .container .logo{
+    width: 150px;
+    height: 150px;
+
+    text-align: center;
+    line-height: 150px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(121, 7, 22);
+
+    background-image: url(../img/cherry-blossom.png);
+    background-position: center;
+    background-size: cover;
+}
+nav .container .links{
+    padding-top: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    text-align: center;
+}
+nav .link{
+    margin: 10px;
+
+    font-size: 20px;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+nav .link:visited{
+    background-color: aquamarine;
+}
+nav .link:hover{
+    color: brown;
+}
+nav .link:active{
+    background-color: blue;
+}
+main{
+    width: calc(100% - 366px);
+    height: 100vh;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .container{
+    width: 957px;
+    height: 570px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .container div{
+    width: 315px;
+    height: 570px;
+    margin-right: 6px;
+
+    text-align: center;
+    line-height: 570px;
+    font-size: 78px;
+
+    background-color: rgb(181, 181, 182);
+    background-position: center;
+    background-size: cover;
+}
+main .container div:hover{
+    color: rgb(207, 36, 36);
+    filter: grayscale(20%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+main .container .x{
+    background-image: url(../img/X.jpg);
+}
+main .container .y{
+    background-image: url(../img/Y.jpg);
+    background-color: rgb(201, 202, 202);
+}
+main .container .z{
+    margin-right: 0px;
+    background-image: url(../img/Z.jpg);
+}
+
+@media(max-width: 1350px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    nav{
+        width: 366px;
+        height: 100vh;
+        padding-top: 75px;
+        float: left;
+    
+        background-color: rgb(220, 221, 221);
+        
+    }
+    nav .container{
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav .container .logo{
+        width: 150px;
+        height: 150px;
+    
+        text-align: center;
+        line-height: 150px;
+        font-size: 50px;
+        font-weight: bold;
+        color: rgb(121, 7, 22);
+    
+        background-image: url(../img/cherry-blossom.png);
+        background-position: center;
+        background-size: cover;
+    }
+    nav .container .links{
+        padding-top: 50px;
+    
+        text-align: center;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    nav .link{
+        margin: 10px;
+    
+        font-size: 20px;
+    
+        background-color: blueviolet;
+        border-radius: 5px;
+    }
+    nav .link:visited{
+        background-color: aquamarine;
+    }
+    nav .link:hover{
+        color: brown;
+    }
+    nav .link:active{
+        background-color: blue;
+    }
+    main{
+        width: calc(100% - 366px);
+    
+        float: right;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .container{
+        width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    main .container div{
+        width: 395px;
+        height: 275px;
+        margin: 2.5px;
+    
+        text-align: center;
+        line-height: 275px;
+        font-size: 78px;
+    
+        background-color: rgb(181, 181, 182);
+        background-position: center;
+        background-size: cover;
+    }
+    main .container div:hover{
+        color: rgb(207, 36, 36);
+    
+        filter: grayscale(20%);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    main .container .x{
+        width: 800px;
+        height: 285px;
+        margin-bottom: 7px;
+    
+        line-height: 285px;
+        
+        background-image: url(../img/X.jpg);
+    }
+    main .container .y{
+        
+        background-image: url(../img/Y.jpg);
+        background-color: rgb(201, 202, 202);
+    }
+    main .container .z{
+        background-image: url(../img/Z.jpg);
+    }
+}
+@media(max-width: 1170px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    nav{
+        width: 100%;
+        height: 100px;
+        padding-top: 0px;
+    
+        background-color: rgb(220, 221, 221);
+    
+        display: flex;
+    
+    }
+    nav .container{
+        width: 100%;
+        padding: 0px 34px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    nav .container .logo{
+        width: 80px;
+        height: 80px;
+    
+        text-align: center;
+        line-height: 80px;
+        font-size: 50px;
+        font-weight: bold;
+        color: rgb(121, 7, 22);
+    
+        background-image: url(../img/cherry-blossom.png);
+        background-position: center;
+        background-size: cover;
+    }
+    nav .container .links{
+        flex-direction: row;
+        padding-top: 0px;
+    }
+    nav .link{
+        margin: 10px;
+    
+        font-size: 20px;
+        background-color: blueviolet;
+        border-radius: 5px;
+    }
+    nav .link:visited{
+        background-color: aquamarine;
+    }
+    nav .link:hover{
+        color: brown;
+    }
+    nav .link:active{
+        background-color: blue;
+    }
+    main{
+        width: 100%;
+        height: unset;
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    main .container{
+        width: 700px;
+        padding-top: 50px;
+    }
+    main .container div{
+        width: 345px;
+        height:  390px;
+        margin: 0px;
+    
+        background-color: rgb(181, 181, 182);
+        background-position: center;
+        background-size: cover;
+    
+        text-align: center;
+        line-height: 390px;
+        font-size: 78px;
+        
+    }
+    main .container div:hover{
+        color: rgb(207, 36, 36);
+        filter: grayscale(20%);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    main .container .x{
+        
+        width: 700px;
+        height: 400px;
+        margin-bottom: 7px;
+    
+        line-height: 400px;
+    
+        background-image: url(../img/X.jpg);
+    }
+    main .container .y{
+    
+        background-image: url(../img/Y.jpg);
+        background-color: rgb(201, 202, 202);
+    }
+    main .container .z{
+        background-image: url(../img/Z.jpg);
+    }
+}
+@media(max-width: 720px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        /* 初始化 */
+    }
+    nav{
+        width: 100%;
+        height: 80px;
+        background-color: rgb(220, 221, 221);
+        padding: 15px 18px;
+    }
+    nav .container{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        padding: 0px;
+    }
+    nav .container .logo{
+        width: 54px;
+        height: 54px;
+    
+        position: absolute;
+        top: calc(50% - 27px);
+        left: calc(50% - 27px);
+    
+        /* 文字格式置中，水平置中：text-align: center; 單行文字垂直置中：行高line-height: (父層高度); */
+        text-align: center;
+        line-height: 54px;
+        font-weight: bolder;
+        color: rgb(173, 54, 54);
+        font-size: 25px;
+    
+        background-image: url(../img/cherry-blossom.png);
+        background-size: cover;
+        background-position: center;
+    }
+    nav .links{
+        width: 40px;
+        height: 50px;
+        background-color: blue;
+        position: absolute;
+        top: 0px;
+    }
+    nav .links:hover{
+        /* 滑鼠漂浮時改變大小 */
+        width: 100px;
+        height: 120px;
+        border-radius: 5px;
+        flex-direction: column;
+    }
+    nav .links:hover .link{
+        /* 改變子層樣式 */
+        width: 80px;
+        height: 20px;
+        /* 滑鼠漂浮時顯示連結 */
+        display: block;
+        /* 置中 */
+        text-align: center;
+        background-color: rgb(238, 106, 187);
+        border-radius: 5px;
+        margin-bottom: 10px;
+        color: blanchedalmond;
+    }
+    nav .link{
+        /* 隱藏元素，opacity: 0; 調整透明度仍會有體積，display: none; 完全消失*/
+        /* display常見屬性兩種：block(佔滿整條)，inline(只在有子層元素的部分有體積) */
+        display: none;
+    }
+    /* 若都要顯示，書寫順序：link — :visited — :hover — :active */
+    nav .links:hover .link:visited{
+        /* 已造訪後的變化 */
+        background-color: blue;
+    }
+    nav .links:hover .link:hover{
+        /* 鼠標懸浮時變化 */
+        color: brown;
+    }
+    nav .links:hover .link:active{
+        /* 點擊當下變化 */
+        background-color: aquamarine;
+    }
+    main{
+        display: block;
+    }
+    main .container{
+        width: 100%;
+        padding: 0px;
+        display: block;
+    }
+    main .container .x,main .container .y,main .container .z{
+        /* 共同數值都下一起，不同的再另外下 */
+        width: 100%;
+        height: calc((667px - 80px) / 3);
+        margin: 0px;
+
+        text-align: center;
+        line-height: calc((667px - 80px) / 3);
+        font-size: 78px;
+        background-color: rgb(181, 182, 182);
+        background-position: 0px ;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    main .container div:hover{
+        background-size: contain;
+        color: rgb(196, 63, 114);
+        filter: grayscale(50%);
+    }
+    main .container .y{
+        /* 另外下的指令權重要注意 */
+        background-color: rgb(201, 202, 202);
+    }
+    main .x{
+        background-image: url(../img/X.jpg);
+    }
+    main .y{
+        background-image: url(../img/Y.jpg);
+    }
+    main .z{
+        background-image: url(../img/Z.jpg);
+    }
+}
