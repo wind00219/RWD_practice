@@ -105,95 +105,17 @@ main .container .z{
 }
 
 @media(max-width: 1350px){
-    *{
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-    }
-    nav{
-        width: 366px;
-        height: 100vh;
-        padding-top: 75px;
-        float: left;
-    
-        background-color: rgb(220, 221, 221);
-        
-    }
-    nav .container{
-        width: 100%;
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    nav .container .logo{
-        width: 150px;
-        height: 150px;
-    
-        text-align: center;
-        line-height: 150px;
-        font-size: 50px;
-        font-weight: bold;
-        color: rgb(121, 7, 22);
-    
-        background-image: url(../img/cherry-blossom.png);
-        background-position: center;
-        background-size: cover;
-    }
-    nav .container .links{
-        padding-top: 50px;
-    
-        text-align: center;
-    
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    }
-    nav .link{
-        margin: 10px;
-    
-        font-size: 20px;
-    
-        background-color: blueviolet;
-        border-radius: 5px;
-    }
-    nav .link:visited{
-        background-color: aquamarine;
-    }
-    nav .link:hover{
-        color: brown;
-    }
-    nav .link:active{
-        background-color: blue;
-    }
-    main{
-        width: calc(100% - 366px);
-    
-        float: right;
-    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     main .container{
         width: 800px;
-        display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
     main .container div{
         width: 395px;
         height: 275px;
-        margin: 2.5px;
+        margin: 0px;
     
-        text-align: center;
         line-height: 275px;
-        font-size: 78px;
-    
-        background-color: rgb(181, 181, 182);
-        background-position: center;
-        background-size: cover;
     }
     main .container div:hover{
         color: rgb(207, 36, 36);
@@ -208,40 +130,19 @@ main .container .z{
         margin-bottom: 7px;
     
         line-height: 285px;
-        
-        background-image: url(../img/X.jpg);
-    }
-    main .container .y{
-        
-        background-image: url(../img/Y.jpg);
-        background-color: rgb(201, 202, 202);
-    }
-    main .container .z{
-        background-image: url(../img/Z.jpg);
     }
 }
 @media(max-width: 1170px){
-    *{
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-    }
     nav{
         width: 100%;
         height: 100px;
         padding-top: 0px;
     
-        background-color: rgb(220, 221, 221);
-    
         display: flex;
-    
     }
     nav .container{
-        width: 100%;
         padding: 0px 34px;
     
-        display: flex;
-        align-items: center;
         justify-content: space-between;
         flex-direction: row;
     }
@@ -249,43 +150,15 @@ main .container .z{
         width: 80px;
         height: 80px;
     
-        text-align: center;
         line-height: 80px;
-        font-size: 50px;
-        font-weight: bold;
-        color: rgb(121, 7, 22);
-    
-        background-image: url(../img/cherry-blossom.png);
-        background-position: center;
-        background-size: cover;
     }
     nav .container .links{
         flex-direction: row;
         padding-top: 0px;
     }
-    nav .link{
-        margin: 10px;
-    
-        font-size: 20px;
-        background-color: blueviolet;
-        border-radius: 5px;
-    }
-    nav .link:visited{
-        background-color: aquamarine;
-    }
-    nav .link:hover{
-        color: brown;
-    }
-    nav .link:active{
-        background-color: blue;
-    }
     main{
         width: 100%;
         height: unset;
-        display: flex;
-        justify-content: center;
-        
-        
     }
     main .container{
         width: 700px;
@@ -294,57 +167,23 @@ main .container .z{
     main .container div{
         width: 345px;
         height:  390px;
-        margin: 0px;
     
-        background-color: rgb(181, 181, 182);
-        background-position: center;
-        background-size: cover;
-    
-        text-align: center;
         line-height: 390px;
-        font-size: 78px;
-        
-    }
-    main .container div:hover{
-        color: rgb(207, 36, 36);
-        filter: grayscale(20%);
-        background-size: contain;
-        background-repeat: no-repeat;
     }
     main .container .x{
         
         width: 700px;
         height: 400px;
-        margin-bottom: 7px;
     
         line-height: 400px;
-    
-        background-image: url(../img/X.jpg);
-    }
-    main .container .y{
-    
-        background-image: url(../img/Y.jpg);
-        background-color: rgb(201, 202, 202);
-    }
-    main .container .z{
-        background-image: url(../img/Z.jpg);
     }
 }
 @media(max-width: 720px){
-    *{
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-        /* 初始化 */
-    }
     nav{
-        width: 100%;
         height: 80px;
-        background-color: rgb(220, 221, 221);
         padding: 15px 18px;
     }
     nav .container{
-        width: 100%;
         height: 100%;
         position: relative;
         padding: 0px;
@@ -358,15 +197,8 @@ main .container .z{
         left: calc(50% - 27px);
     
         /* 文字格式置中，水平置中：text-align: center; 單行文字垂直置中：行高line-height: (父層高度); */
-        text-align: center;
         line-height: 54px;
-        font-weight: bolder;
-        color: rgb(173, 54, 54);
         font-size: 25px;
-    
-        background-image: url(../img/cherry-blossom.png);
-        background-size: cover;
-        background-position: center;
     }
     nav .links{
         width: 40px;
@@ -419,38 +251,14 @@ main .container .z{
     main .container{
         width: 100%;
         padding: 0px;
-        display: block;
     }
     main .container .x,main .container .y,main .container .z{
         /* 共同數值都下一起，不同的再另外下 */
+        /* 逗號間互不隸屬，需要重新撰寫前面的父曾結構 */
         width: 100%;
         height: calc((667px - 80px) / 3);
         margin: 0px;
 
-        text-align: center;
         line-height: calc((667px - 80px) / 3);
-        font-size: 78px;
-        background-color: rgb(181, 182, 182);
-        background-position: 0px ;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    main .container div:hover{
-        background-size: contain;
-        color: rgb(196, 63, 114);
-        filter: grayscale(50%);
-    }
-    main .container .y{
-        /* 另外下的指令權重要注意 */
-        background-color: rgb(201, 202, 202);
-    }
-    main .x{
-        background-image: url(../img/X.jpg);
-    }
-    main .y{
-        background-image: url(../img/Y.jpg);
-    }
-    main .z{
-        background-image: url(../img/Z.jpg);
     }
 }
